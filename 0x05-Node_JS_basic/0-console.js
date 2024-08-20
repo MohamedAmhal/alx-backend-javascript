@@ -1,14 +1,14 @@
 /**
- * Logs a message to the console.
- * @param {string} message - The message.
+ * Logs a message .
+ * @param {string} message - The message to log.
  * @returns {void}
  */
-const displayMessage = (message) =>{
-    console.log(message);
-}
+const displayMessage = (message) => console.log(message);
+
 /**
- * Exports.
+ * Exports the displayMessage function.
  * @module displayMessage
  * @function
  */
-module.export = displayMessage;
+
+module.exports = displayMessage;
